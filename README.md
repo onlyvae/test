@@ -1,14 +1,17 @@
-POST /medical/appoint/selectDispQueueList HTTP/1.1
-Host: public.health.zoenet.cn
-Connection: close
-Content-Length: 112
-Origin: https://public.health.zoenet.cn
-User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; MEIZU E3 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.110 Mobile Safari/537.36 HC_XMDYYY_ADR
-node: open
-content-type: application/json; charset=utf-8
-Accept: */*
-Referer: https://public.health.zoenet.cn/medical/appoint/medical-doctor-list?hosCode=426600660&deptCode=1070310&deptName=5Y+j6IWU56eR6Zeo6K+K&isArmyMan=0
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,en-US;q=0.8
-Cookie: connect.sid=s%3Aq1TJbGdiyCbDkOUkj-Jp-SFO3DtU3btH.TETZxRiSQA%2BTltbWcNiU%2FwuSsCr8HpnoCIOVdBxH7cQ; CONTAINERID=de18069c217ffe31794cac5c8566f97da0d3de6bc5d3f9717b42a69208c98068|XbAui|XbAl2
-X-Requested-With: xmdyyy.mobile.mhpublic
+4.9（3）子网数不相同
+
+4.9（5）有效
+
+ 4-17. ip数据分片的偏移单位是64bit，如果数据部分是1040bit无法表示偏移.不过结果依然正确
+
+ 4-28 路由器的形状要和网络的形状有区分
+
+4-37 (4)要去掉全0和全1的IP
+
+补充题1 会发生IP地址冲突，后设置IP的主机会上不了网
+
+补充题2 1-0.99^4
+
+补充题3 ARP协议没有IP头
+
+补充题3 不可以过滤 ARP协议中没有IP头
